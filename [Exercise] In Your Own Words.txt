@@ -1,0 +1,10 @@
+1. Scope is where variables are available in your program. The two options are global scope and local scope. Global scope
+is when the variable is available everywhere within your program whereas local scope is restricted to a particular portion of your code. 
+
+2. Global variables are avoided because you want to make sure that variables aren't changed unintentionally by different portions of your program.
+Also, global variables are to be avoided in order to avoid conflicts. 
+
+3. JavaScript's strict mode forces variables to be declared and thus prevents the accidental creation of global variables.
+
+4. Side effects is when your function creates or changes a variable outside of the function. Pure functions have 2 requirements.
+The first requirement is that there is no side effects and the second is that it is determinant (given the same input only one determinant output is possible). 
