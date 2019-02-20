@@ -23,13 +23,3 @@ function min(numbers) {
   return currentMin;
 }
 
-function average(numbers) {
-  let total = 0;
-  numbers.forEach(function(number){
-  total += number;
-  });
-
-  return total/numbers.length;
-}
-
-console.log(average([1,2,3,4]));
